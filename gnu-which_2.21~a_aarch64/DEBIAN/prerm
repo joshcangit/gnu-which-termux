@@ -1,0 +1,4 @@
+#!/data/data/com.termux/files/usr/bin/sh
+set -e
+rm -f /data/data/com.termux/files/usr/etc/profile.d/which.sh
+unalias -a which

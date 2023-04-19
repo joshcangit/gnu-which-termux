@@ -1,0 +1,15 @@
+Package: gnu-which
+Version: 2.21
+Architecture: aarch64
+Maintainer: Boyuan Yang <byang@debian.org>
+Installed-Size: 45
+Conflicts: debianutils (<= 5.7)
+Breaks: debianutils (<< 5.1-2~)
+Provides: which
+Section: utils
+Priority: optional
+Homepage: https://savannah.gnu.org/projects/which
+Description: Utility to show the full path of commands
+ This package provides GNU implementation of which command.
+ This tool provides the functionality to show the full path
+ of commands.
