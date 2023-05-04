@@ -1,9 +1,0 @@
-#!/data/data/com.termux/files/usr/bin/sh
-set -e
-# Automatically added by dh_installalternatives/13.6
-if [ "$1" = "remove" ]; then
-	if [ -x "/data/data/com.termux/files/usr/bin/update-alternatives" ]; then
-		update-alternatives --remove which /data/data/com.termux/files/usr/bin/which.gnu
-	fi
-fi
-# End automatically added section

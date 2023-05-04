@@ -1,3 +1,0 @@
-#!/data/data/com.termux/files/usr/bin/sh
-set -e
-printf "alias which='which.gnu'" > /data/data/com.termux/files/usr/etc/profile.d/which.sh
